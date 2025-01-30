@@ -1,0 +1,14 @@
+# Core dependencies
+diffusers==0.11.1
+transformers  # Required for model loading
+torch>=2.0.0  # For CUDA support
+accelerate    # Required for GPU acceleration
+
+# Image processing
+Pillow>=9.0.0  # For image handling
+ftfy          # Text processing for transformers
+
+# Utilities
+tqdm          # For progress bars
+requests      # For downloading images
+huggingface-hub  # For model access
